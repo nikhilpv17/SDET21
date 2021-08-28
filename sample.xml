@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+       <groups>
+           <run>
+              <include name="smoke"/>
+              <include name="regression"/>                         
+           </run>     
+       </groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vtiger.comcast.leadtest.OrgTest">
+         <methods>
+             <include name="testing"/>
+         </methods>
+      </class>   
+      <class name="com.vtiger.comcast.leadtest.LeadTest">
+         <methods>
+             <include name="kbcTest"/>
+         </methods>
+      </class>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
