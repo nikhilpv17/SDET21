@@ -95,7 +95,7 @@ public class CreateLeadfullTest extends BaseClass{
 		ArrayList k2 = le.updatedLeadsNo();
 		
 		
-		Assert.assertTrue(actText.contains(last_name) && !k1.contains(k2.get(k1.size()-2)));
+		Assert.assertTrue(actText.contains(last_name) && !k1.contains(k2.get(k1.size())));
         
 	
 	}
