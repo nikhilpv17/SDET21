@@ -63,10 +63,10 @@ public class BaseClass {
 	
 	@BeforeClass(groups={"smoketest","regressiontest"})
 	public void configBC() throws Throwable {
-		String chromekey=fLib.getPropertyKeyValue("chromeKey");
-		String chromePath=fLib.getPropertyKeyValue("chromePath");
-		System.setProperty(chromekey, chromePath);
-		driver=new ChromeDriver();
+		String geckokey=fLib.getPropertyKeyValue("geckokey");
+		String geckoPath=fLib.getPropertyKeyValue("geckopath");
+		System.setProperty(geckokey, geckoPath);
+		driver=new FirefoxDriver();
 		bdriver=driver;
 		driver.manage().window().maximize();
 	}
