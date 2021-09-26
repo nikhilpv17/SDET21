@@ -12,7 +12,7 @@ import com.vtiger.comcast.pomrepositylib.HomePage;
 import com.vtiger.comcast.pomrepositylib.LeadInfoPage;
 import com.vtiger.comcast.pomrepositylib.LeadsPage;
 
-@Listeners(com.vtiger.comcast.genericUtility.LisImpClass.class)
+//@Listeners(com.vtiger.comcast.genericUtility.LisImpClass.class)
 public class CreateLeadfullTest extends BaseClass{
 	
 	@Test(groups= {"smoketest"})

@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.comcast.leadtest.CreateLeadfullTest">
+      <class name="pract1.P1">
         <methods>
-          <include name="configBM"/>
-          <include name="configAM"/>
-          <include name="createLead3Test"/>
-          <include name="configAS"/>
-          <include name="configAC"/>
-          <include name="createLead1Test"/>
-          <include name="createLeadwithInalid2Test"/>
-          <include name="configBS"/>
-          <include name="configBC"/>
+          <include name="check"/>
         </methods>
-      </class> <!-- com.vtiger.comcast.leadtest.CreateLeadfullTest -->
+      </class> <!-- pract1.P1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
