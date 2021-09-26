@@ -19,7 +19,7 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Leads']")
 	private WebElement lead_link;
 	
-	@FindBy(xpath="//img[@src=\"themes/softed/images/user.PNG\"]")
+	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminimg;
 	
 	@FindBy(linkText="Sign Out")
